@@ -1,0 +1,22 @@
+name: "UHC"
+version: "1.0"
+api: ["1.0.0"]
+main: ultraHardcore.UltraHardcore
+author: "Minetox team"
+description: "UHC minigame"
+load: STARTUP
+depend: ["GTHttpApi", "GTCore"]
+
+commands:
+  uhcentity:
+    description: "spawn a uhcentity"
+  kitentity:
+    description: "spawn a kitentity"
+  chunkmap:
+    description: "Shows a chunk map"
+  reloadchunks:
+    description: "Reloads chunks around a player"
+  gendebug:
+    description: "debug"
+  entities:
+    description: "show entities"
